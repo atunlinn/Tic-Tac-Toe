@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+.container{
+    display:grid;
+    
+    min-height: 100vh;
+   
+    place-items: center;
+    background-color: hsl(174, 9%, 88%)
+}
+.gameboard{
+    width:225px;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    
+}
+.cell{
+    display:flex;
+    width:75px;
+    height:75px;
+    border: 1px solid black; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    width:200px;
+    height:25px;
+    border-radius: 5px;
+    
+}
+
+
+.text{
+    font-size:35px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+button{
+    width:75px;
+    height:25px;
+    border-radius: 5px;
+}
+
